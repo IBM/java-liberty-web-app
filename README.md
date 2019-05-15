@@ -26,8 +26,8 @@ The context root is set in the `src/main/webapp/WEB-INF/ibm-web-ext.xml` file.  
 
 This application exposes the following endpoints:
 
-* Health endpoint: <host>:<port>/<contextRoot>/health
-* Web content: <host>:<port>/<contextRoot>
+* Health endpoint: `<host>:<port>/<contextRoot>/health`
+* Web content: `<host>:<port>/<contextRoot>`
 
 ## Steps
 
