@@ -1,6 +1,6 @@
-FROM websphere-liberty:webProfile7
+FROM websphere-liberty:kernel
 LABEL maintainer="IBM Java Engineering at IBM Cloud"
-COPY /target/liberty/wlp/usr/servers/defaultServer /config/
+COPY --chown=1001:0 /target/liberty/wlp/usr/servers/defaultServer /config/
 # Grant write access to apps folder, this is to support old and new docker versions.
 # Liberty document reference : https://hub.docker.com/_/websphere-liberty/
 USER root
@@ -17,3 +17,6 @@ RUN \
     && java -jar /tmp/license.jar -acceptLicense /opt/ibm \
     && rm /tmp/license.jar; \
   fi
+
+# This script will add the requested XML snippets, grow image to be fit-for-purpose and apply interim fixes
+RUN configure.sh
