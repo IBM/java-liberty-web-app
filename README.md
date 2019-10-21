@@ -27,7 +27,7 @@ This application exposes the following endpoints:
 * Health endpoint: `<host>:<port>/<contextRoot>/health`
 * Web content: `<host>:<port>/<contextRoot>`
 
-The context root is set in the `src/main/webapp/WEB-INF/ibm-web-ext.xml` file. The web application has a health endpoint which is accessible at `<host>:<port>/javalibertymicroservice/health`. The context root is set in the `src/main/webapp/WEB-INF/ibm-web-ext.xml` file. The ports are set in the `pom.xml` file.
+The context root is set in the `src/main/webapp/WEB-INF/ibm-web-ext.xml` file. The web application has a health endpoint which is accessible at `<host>:<port>/javalibertymicroservice/health`. The ports are set in the `pom.xml` file.
 
 ## Steps
 
