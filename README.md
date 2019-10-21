@@ -20,7 +20,7 @@
 
 > We have similar applications available for [Go](https://github.com/IBM/go-web-app), [Spring](https://github.com/IBM/spring-web-app), [Python Flask](https://github.com/IBM/flask-web-app), [Swift](https://github.com/IBM/swift-web-app) and [Node](https://github.com/IBM/nodejs-web-app).
 
-In this sample application, you will create a Java Liberty web application. This provides a starting point for creating Java web applications running on [WebSphere Liberty](https://developer.ibm.com/wasdev/). It contains no default application code, but comes with standard best practices, including a health check and application metric monitoring.
+In this sample application, you will create a Java Liberty web application. This provides a starting point for creating Java web applications running on [WebSphere Liberty](https://developer.ibm.com/wasdev/). It contains no default application code, but comes with standard best practices, including a health check.
 
 This application exposes the following endpoints:
 
